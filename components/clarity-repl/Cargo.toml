@@ -35,7 +35,7 @@ atty = "0.2.14"
 # clarity-vm = "2"
 #clarity = { git = "https://github.com/stacks-network/stacks-core.git", branch="feat/clarity-wasm-next", package = "clarity", optional = true, default-features = false }
 
-clarity = { git = "https://github.com/bitnet-io/stacks-core-bitnet.git", branch="master", package = "clarity", optional = true, default-features = false }
+clarity = { git = "https://github.com/bitnet-io/stacks-core-bitnet.git", branch="wasm", package = "clarity", optional = true, default-features = false }
 
 
 # clarity = { version = "2", default-features = false, optional = true, path ="../../../clarity-wasm/stacks-core/clarity" }
@@ -45,7 +45,7 @@ clar2wasm = { git = "https://github.com/stacks-network/clarity-wasm.git", option
 
 #pox-locking = { git = "https://github.com/stacks-network/stacks-core.git", branch="feat/clarity-wasm-next",  optional = true, default-features = false }
 
-pox-locking = { git = "https://github.com/bitnet-io/stacks-core-bitnet.git", branch="master",  optional = true, default-features = false }
+pox-locking = { git = "https://github.com/bitnet-io/stacks-core-bitnet.git", branch="wasm",  optional = true, default-features = false }
 
 
 # DAP Debugger
