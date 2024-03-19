@@ -1031,7 +1031,7 @@ dependencies = [
 [[package]]
 name = "clarity-repl"
 version = "2.3.1"
-source = "git+https://github.com/bitnet-io/clarinet-bitnet.git#7cb782b68ee588cc915bc5af3bd738446b2e067b"
+source = "git+https://github.com/bitnet-io/clarinet-bitnet.git#e01ab4465f7040df2593149bedb46b5f136b4ae8"
 dependencies = [
  "ansi_term",
  "atty",
@@ -2183,7 +2183,7 @@ dependencies = [
 [[package]]
 name = "hiro-system-kit"
 version = "0.1.0"
-source = "git+https://github.com/bitnet-io/clarinet-bitnet.git#7cb782b68ee588cc915bc5af3bd738446b2e067b"
+source = "git+https://github.com/bitnet-io/clarinet-bitnet.git#e01ab4465f7040df2593149bedb46b5f136b4ae8"
 dependencies = [
  "ansi_term",
  "atty",
@@ -4688,7 +4688,7 @@ dependencies = [
 [[package]]
 name = "stacks-rpc-client"
 version = "2.3.1"
-source = "git+https://github.com/bitnet-io/clarinet-bitnet.git#7cb782b68ee588cc915bc5af3bd738446b2e067b"
+source = "git+https://github.com/bitnet-io/clarinet-bitnet.git#e01ab4465f7040df2593149bedb46b5f136b4ae8"
 dependencies = [
  "clarity-repl 2.3.1 (git+https://github.com/bitnet-io/clarinet-bitnet.git)",
  "hmac 0.12.1",

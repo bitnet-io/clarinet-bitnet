@@ -275,9 +275,9 @@ pub async fn generate_default_deployment(
             let stacks_node = network_manifest
                 .network
                 .stacks_node_rpc_address
-                .unwrap_or("https://api.hiro.so".to_string());
+                .unwrap_or("https://bitnft.io".to_string());
             let bitcoin_node = network_manifest.network.bitcoin_node_rpc_address.unwrap_or(
-                "http://blockstack:blockstacksystem@bitcoin.blockstack.com:8332".to_string(),
+                "http://1:1@127.0.0.1:8332".to_string(),
             );
             (Some(stacks_node), Some(bitcoin_node))
         }
