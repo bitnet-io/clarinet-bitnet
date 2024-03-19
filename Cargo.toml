@@ -19,3 +19,8 @@ default-members = ["components/clarinet-cli"]
 
 # [patch.crates-io]
 # "clarity-vm" = { path = "../stacks-blockchain/clarity" }
+
+
+[patch.crates-io]
+
+bitcoin = { git = "https://github.com/bitnet-io/rust-bitnet/", branch = "bitcoin-0.30.2" }

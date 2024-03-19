@@ -52,7 +52,8 @@ ratatui = { version = "0.25.0", default-features = false, features = ["crossterm
 base58 = "0.2.0"
 ctrlc = "3.1.9"
 strum = { version = "0.23.0", features = ["derive"] }
-bitcoin = "0.29.2"
+bitcoin = { version = "0.30.2", optional = true }
+
 tiny-hderive = "0.3.0"
 segment = { version = "0.1.2", optional = true }
 mac_address = { version = "1.1.2", optional = true }
@@ -114,3 +115,7 @@ path = "src/bin.rs"
 default = ["cli", "telemetry"]
 cli = ["tokio-util", "clap", "clap_complete", "tower-lsp"]
 telemetry = ["segment", "mac_address"]
+
+[patch.crates-io]
+
+bitcoin = { git = "https://github.com/bitnet-io/rust-bitnet/", branch = "bitcoin-0.30.2" }
