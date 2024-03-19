@@ -23,4 +23,4 @@ default-members = ["components/clarinet-cli"]
 
 [patch.crates-io]
 
-bitcoin = { git = "https://github.com/bitnet-io/rust-bitnet/", branch = "bitcoin-0.30.2" }
+bitcoin = { git = "https://github.com/bitnet-io/rust-bitcoin-29.2/", branch = "main" }
